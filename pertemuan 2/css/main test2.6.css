@@ -1,0 +1,23 @@
+h1 {
+    color: violet;
+}
+*{
+    color: aliceblue;
+    border: 2px solid burlywood;
+}
+.teks-merah,
+#teks-kuning{
+    font-size: 20;
+    text-align: center;
+    background-color: bisque;
+}
+.teks-merah {
+    color: brown;
+}
+#teks-kuning{
+    color: cornflowerblue;
+}
+
+p:hover {
+    background-color: yellow;
+}

@@ -1,0 +1,9 @@
+.container{
+    display: flex;
+}
+
+.container div{
+    background: plum;
+    border: 5px solid  salmon;
+    height: 100px;
+}

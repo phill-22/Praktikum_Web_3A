@@ -1,0 +1,13 @@
+.teks-merah{
+    font-size: 20px;
+    text-align: center;
+    background-color: black;
+    color: red;
+}
+
+#teks-kuning{
+    font-size: 20px;
+    text-align: center;
+    background-color: black;
+    color: yellow;
+}
