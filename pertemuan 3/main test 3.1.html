@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>praktikum 3 Form dan input</title>
+</head>
+<body>
+    <form action="">
+        <label for="nik">NIK : </label> <br>
+        <input type="text" id="nik" size="10" maxlength="12" required placeholder="misal : 123"> <br>
+
+        <label for="nama">Nama : </label> <br>
+        <input type="text" id="nama" required placeholder="misal : fajar"> <br>
+
+        <label for="tanggal_bekerja">Tanggal Mulai Bekerja : </label> <br>
+
+        <input type="date" name="tanggal_bekerja" required min="2004-07-20"> <br>
+
+        <label for="gaji_pokok">Gaji Pokok : </label> <br>
+        <input type="number" name="gaji_pokok" required min="500000" step="1000"><br>
+
+        <label for="">Status Karyawan : </label> <br>
+
+        <input type="radio" name="status_karyawan" value="TETAP">
+        <label for="tetap">tetap</label> <br>
+
+        <input type="radio" name="status_karyawan" value="MAGANG">
+        <label for="magang">magang</label> <br>
+
+        <input type="radio" name="status_karyawan" value="KONTRAK">
+        <label for="kontrak">kontrak</label> <br>
+
+        <input type="submit" id="btn_submit" name="btn_submit" value="Submit">
+        <input type="reset" id="btn_reset" name="btn_reset" value="Reset">
+    </form>
+    
+</body>
+</html>
